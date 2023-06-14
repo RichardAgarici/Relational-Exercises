@@ -25,5 +25,20 @@ public class Challenge5 {
         } else
             System.out.println("I don't know this extension. Check it again it's correct.");
 
+        switch (ext){
+            case "com" :
+                System.out.println("Commercial");
+                break;
+            case "org" :
+                System.out.println("Organisation");
+                break;
+            case "net" :
+                System.out.println("Network");
+                break;
+            default:
+                System.out.println("I don't know this one.");
+                break;
+        }
+
     }
 }
